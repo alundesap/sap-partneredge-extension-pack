@@ -11,7 +11,7 @@
     "license": "MIT",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/DonJayamanne/python-extension-pack"
+		"url": "https://github.com/alundesap/sap-partneredge-extension-pack.git"
     },
     "engines": {
         "vscode": "^1.42.0"
@@ -20,8 +20,6 @@
         "Extension Packs"
     ],
     "extensionPack": [ 
-	"magicstack.magicpython",
-        "camel-tooling.yo", 
         "SAPSE.vscode-cds"
     ]
 }
