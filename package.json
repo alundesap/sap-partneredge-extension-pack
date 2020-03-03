@@ -16,10 +16,16 @@
     "engines": {
         "vscode": "^1.42.0"
     },
+    "icon": "partneredge.png",
     "categories": [
         "Extension Packs"
     ],
     "extensionPack": [ 
+	"ms-python.python",
+	"dbaeumer.vscode-eslint",
+	"mtxr.sqltools",
+	"visualstudioexptteam.vscodeintellicode",
+	"redhat.vscode-yaml",
         "SAPSE.vscode-cds"
     ]
 }
