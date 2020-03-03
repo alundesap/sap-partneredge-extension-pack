@@ -13,12 +13,22 @@
 		"type": "git",
 		"url": "https://github.com/alundesap/sap-partneredge-extension-pack.git"
     },
+    "bugs": {
+		"url": "https://github.com/alundesap/sap-partneredge-extension-pack/issues"
+    },
     "engines": {
         "vscode": "^1.42.0"
     },
     "icon": "partneredge.png",
     "categories": [
         "Extension Packs"
+    ],
+    "extensionDependencies": [
+	"ms-python.python",
+	"dbaeumer.vscode-eslint",
+	"mtxr.sqltools",
+	"visualstudioexptteam.vscodeintellicode",
+	"redhat.vscode-yaml"
     ],
     "extensionPack": [ 
 	"ms-python.python",
