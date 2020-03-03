@@ -1,0 +1,27 @@
+{
+    "name": "sap-partneredge-extension-pack",
+    "displayName": "SAP Partner Extension Pack",
+    "description": "VSCode extensions of interest to SAP Partners",
+    "version": "0.0.1",
+    "publisher": "sap-partneredge",
+    "author": {
+      "name": "Andrew Lunde",
+      "email": "andrew.lunde@sap.com"
+    },
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/DonJayamanne/python-extension-pack"
+    },
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+	"magicstack.magicpython",
+        "camel-tooling.yo", 
+        "SAPSE.vscode-cds"
+    ]
+}
